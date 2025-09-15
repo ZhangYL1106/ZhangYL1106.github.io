@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Yulun Zhang — Actuarial Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;background:#f7f7f8;color:#111;line-height:1.6}
+    header{padding:48px 20px;text-align:center;background:#fff;border-bottom:1px solid #eee}
+    h1{margin:0 0 8px;font-size:28px}
+    .sub{color:#555;margin:0 0 16px}
+    .btn{display:inline-block;padding:10px 16px;border-radius:10px;border:1px solid #111;text-decoration:none;color:#111;background:#fff}
+    .container{max-width:920px;margin:0 auto;padding:28px 20px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+    .card{background:#fff;border:1px solid #e6e6e6;border-radius:14px;padding:16px}
+    .tag{font-size:12px;border:1px solid #ddd;border-radius:999px;padding:2px 8px;display:inline-block;margin-right:6px;color:#444}
+    footer{padding:24px 20px;text-align:center;color:#777}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Yulun Zhang</h1>
+    <p class="sub">Actuarial Science @ Columbia — Life & Health / P&C </p>
+    <a class="btn" href="/assets/Yulun_Zhang_Resume.pdf" target="_blank">Download Resume (PDF)</a>
+    &nbsp;<a class="btn" href="https://github.com/ZhangYL1106" target="_blank">GitHub</a>
+    &nbsp;<a class="btn" href="mailto:yz4928@columbia.edu">Email</a>
+    &nbsp;<a class="btn" href="https://www.linkedin.com/in/yulun-zhang-columbia" target="_blank">LinkedIn</a>
+  </header>
+
+  <div class="container">
+    <h2>About</h2>
+    <p>SQL-based data QC/reconciliations; Python/R modeling; scenario analysis. Deloitte AU risk-score & cost–benefit project; Munich Re L&amp;H internship. Interested in annuity pricing/experience and P&amp;C analytics.</p>
+
+    <h2>Selected Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>AU Risk-Score & Cost-Benefit (Demo)</h3>
+        <span class="tag">Python</span> <span class="tag">L&amp;H</span>
+        <p>Synthetic example: simple risk-score for AU + cost–benefit sensitivities.</p>
+        <p><a href="https://github.com/ZhangYL1106/au-riskscore-demo" target="_blank">View repo</a></p>
+      </div>
+      <div class="card">
+        <h3>Life Lapse Experience (Demo)</h3>
+        <span class="tag">R</span> <span class="tag">Experience Study</span>
+        <p>Illustrative lapse study with credibility blending (R Markdown).</p>
+        <p><a href="https://github.com/ZhangYL1106/life-experience-demo" target="_blank">View repo</a></p>
+      </div>
+      <div class="card">
+        <h3>Homeowners Loss Explorer</h3>
+        <span class="tag">SQL</span> <span class="tag">P&amp;C</span>
+        <p>SQL + notebook on earned premium, losses, UW-year views (synthetic).</p>
+        <p><a href="https://github.com/ZhangYL1106/homeowners-analytics-demo" target="_blank">View repo</a></p>
+      </div>
+    </div>
+
+    <h2>Notes</h2>
+    <ul>
+      <li>All datasets are synthetic/public—no client or proprietary data.</li>
+    </ul>
+  </div>
+
+  <footer>© <span id="y"></span> Yulun Zhang — zhangyl1106.github.io</footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
